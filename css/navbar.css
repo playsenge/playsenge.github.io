@@ -1,0 +1,45 @@
+/* I suck at CSS/HTML/JS, if you know any ways that you could help me make this not terrible, DM me :) */
+
+#navbar {
+    display: block;
+    height: 100px;
+    background: transparent;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.fa {
+    margin-right: 7px;
+}
+
+html,body{
+    position: fixed;
+}
+
+.item {
+    padding: 15px 20px 15px 20px;
+    font-size: 20px;
+    color: white;
+    float: left;
+}
+
+.active {
+    background: #1b3aab;
+}
+
+.item:hover {
+    background: #2c4bbc;
+}
+
+.rounded-right {
+    border-radius: 0px 15px 15px 0px;
+}
+
+.rounded-left {
+    border-radius: 15px 0px 0px 15px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
