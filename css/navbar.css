@@ -16,6 +16,10 @@ html,body{
     position: fixed;
 }
 
+.active:hover{
+    cursor:default;
+}
+
 .item {
     padding: 15px 20px 15px 20px;
     font-size: 20px;
@@ -27,8 +31,9 @@ html,body{
     background: #1b3aab;
 }
 
-.item:hover {
+body:not(.logged-in) .item {
     background: #2c4bbc;
+    cursor: pointer;
 }
 
 .rounded-right {

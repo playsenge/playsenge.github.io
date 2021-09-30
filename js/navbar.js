@@ -1,9 +1,5 @@
-function goHome() {
-    redirect("/");
-}
-
-function redirect(site)
-  window.parent.location.href = site;
+function navigate(site) {
+  if(window.parent.location.href != site) window.parent.location.href = site;
 }
 
 // professionalism 1000
