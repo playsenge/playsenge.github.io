@@ -1,5 +1,5 @@
-function navigate(site) {
-  if(window.parent.location.href != site) window.parent.location.href = site;
+function navigate(site, e) {
+  if(!e.target.classList.contains("active")) window.parent.location.href = site;
 }
 
 // professionalism 1000

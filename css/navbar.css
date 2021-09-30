@@ -31,7 +31,7 @@ html,body{
     background: #1b3aab;
 }
 
-body:not(.logged-in) .item {
+.item:hover:not(.active) {
     background: #2c4bbc;
     cursor: pointer;
 }
