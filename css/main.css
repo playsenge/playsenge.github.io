@@ -11,8 +11,8 @@ body {
 
 .bookmarktext {
   font-size: 23px;
-  margin-bottom: 10px;
   margin-left: 6px;
+  display: inline;
 }
 
 .bookmarkimg {

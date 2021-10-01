@@ -1,0 +1,14 @@
+<script>
+function detectBrowser(){
+    var N= navigator.appName;
+    var UA= navigator.userAgent;
+    var temp;
+    var browserVersion= UA.match(/(opera|chrome|safari|firefox|msie)\/?\s*(\.?\d+(\.\d+)*)/i);
+    if(browserVersion && (temp= UA.match(/version\/([\.\d]+)/i))!= null)
+    browserVersion[2]= temp[1];
+    browserVersion= browserVersion? browserVersion[1]: navigator.appVersion;
+    alert("[" + browserVersion.toLowerCase() + "]");
+   
+};
+</script>
+<button name="asf" onclick="detectBrowser()">yes</button>
