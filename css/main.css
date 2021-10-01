@@ -9,6 +9,16 @@ body {
     font-family: 'Roboto', sans-serif;
 } 
 
+.bookmarktext {
+  font-size: 23px;
+  margin-bottom: 10px;
+  margin-left: 6px;
+}
+
+.bookmarkimg {
+  height: 20px;
+}
+
 h1 {
     margin: 0;
     margin-bottom: 5px;
