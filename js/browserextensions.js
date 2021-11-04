@@ -1,4 +1,4 @@
-function navigateToExtension(e, edge, opera, chrome, firefox, safari, ie){    
+function addExtensionHref(e, edge, opera, chrome, firefox, safari, ie){    
 	var browser = (function (agent) {
     switch (true) {
         case agent.indexOf("edge") > -1: return "edge";
@@ -11,33 +11,37 @@ function navigateToExtension(e, edge, opera, chrome, firefox, safari, ie){
         default: return "other";
     }
 	})(window.navigator.userAgent.toLowerCase());
-	
+  
+  var element = e.target;
   var extension = e.target.innerText;
   
-	if(browser == "edge"){
-		if(edge == "unsupported") alert(extension + " is not available for Microsoft Edge.")
-		else window.location.href = edge;
-	}
-	else if(browser == "opera"){
-		if(opera == "unsupported") alert(extension + " is not available for Opera.")
-		else window.location.href = opera;
-	}
-	else if(browser == "chrome"){
-		if(chrome == "unsupported") alert(extension + " is not available for Google Chrome.")
-		else window.location.href = chrome;
-	}
-	else if(browser == "ie"){
-		if(ie == "unsupported") alert(extension + " is not available for Internet Explorer.")
-		else window.location.href = ie;
-	}
-	else if(browser == "firefox"){
-		if(firefox == "unsupported") alert(extension + " is not available for Firefox.")
-		else window.location.href = firefox;
-	}
-	else if(browser == "safari"){
-		if(safari == "unsupported") alert(extension + " is not available for Safari.")
-		else window.location.href = safari;
-	} else {
-    alert("Error: Can't detect your browser.");
+  switch(browser) {
+    case "edge":
+      if(edge == "unsupported") alert(extension + " is not available for Microsoft Edge.")
+      else element.href = edge;
+      break;
+    case "opera":
+      if(opera == "unsupported") alert(extension + " is not available for Opera.")
+      else element.href = opera;
+      break;
+    case "chrome":
+      if(chrome == "unsupported") alert(extension + " is not available for Google Chrome.")
+      else element.href = chrome;
+      break;
+    case "ie":
+      if(ie == "unsupported") alert(extension + " is not available for Internet Explorer.")
+      else element.href = ie;
+      break;
+    case "firefox":
+      if(firefox == "unsupported") alert(extension + " is not available for Firefox.")
+      else element.href = firefox;
+      break;
+    case "safari":
+      if(safari == "unsupported") alert(extension + " is not available for Safari.")
+      else element.href = safari;
+      break;
+    default:
+      alert("Error: Can't detect your browser.");
+      break;
   }
 };
