@@ -1,5 +1,6 @@
 function addExtensionHref(e, edge, opera, chrome, firefox, safari, ie){    
-	var browser = (function (agent) {
+	alert("loaded! " + e)
+  var browser = (function (agent) {
     switch (true) {
         case agent.indexOf("edge") > -1: return "edge";
         case agent.indexOf("edg") > -1: return "edge";
@@ -14,6 +15,7 @@ function addExtensionHref(e, edge, opera, chrome, firefox, safari, ie){
   
   var element = e.target;
   var extension = e.target.innerText;
+  extension = "works";
   
   switch(browser) {
     case "edge":
