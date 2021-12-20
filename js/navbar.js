@@ -1,7 +1,11 @@
 function navigate(site, e, newtab) {
   if(!e.target.classList.contains("active")) {
-    if(newtab == false) window.parent.location.href = site;
-    else window.open(site, "_blank");
+    if(newtab == false) {
+      window.parent.location.href = site;
+    }
+    if(newtab == true) {
+      window.open(site, "_blank");
+    }
   }
 }
 
