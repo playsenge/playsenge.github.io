@@ -1,11 +1,12 @@
-function navigate(site, e, newtab) {
+function navigate(site, e) {
   if(!e.target.classList.contains("active")) {
-    if(newtab == false) {
       window.parent.location.href = site;
-    }
-    if(newtab == true) {
+  }
+}
+
+function navigateNewTab(site, e) {
+  if(!e.target.classList.contains("active")) {
       window.open(site, "_blank");
-    }
   }
 }
 
