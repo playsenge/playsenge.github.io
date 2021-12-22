@@ -32,15 +32,67 @@
         </ul>
         <h1 id="-browser-extensions-">Browser Extensions</h1>
         <ul>
-        <!-- <li><a class="link" onload="addExtensionHref(event, 'edge', 'opera', 'chrome', 'firefox', 'safari', 'ie')"><div class="bookmarktext">Name</a></div></li> -->
-        <li><a class="link" onclick="addExtensionHref(event, 'https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak', 'https://addons.opera.com/en/extensions/details/ublock/', 'https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm', 'https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/', 'https://safari-extensions.apple.com/details/?id=com.el1t.uBlock-3NU33NW2M3', 'unsupported')"><img class="bookmarkimg" src="https://cdn.glitch.com/308b305a-6d44-4e10-b83f-42216d0a3e99%2Fublockorigin.png?v=1633092974448"></img> <div class="bookmarktext">uBlock Origin</a></div></li>
-        <li><a class="link" onload="addExtensionHref(event, 'https://microsoftedge.microsoft.com/addons/detail/mkejgcgkdlddbggjhhflekkondicpnop', 'https://addons.opera.com/en/extensions/details/privacy-badger', 'https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp', 'https://addons.mozilla.org/firefox/downloads/latest/privacy-badger17/', 'unsupported', 'unsupported')"><img class="bookmarkimg" src="https://cdn.glitch.com/308b305a-6d44-4e10-b83f-42216d0a3e99%2Fprivacybadger.png?v=1633092975048"></img> <div class="bookmarktext">Privacy Badger</a></div></li>
-        <li><a class="link" onload="addExtensionHref(event, 'https://microsoftedge.microsoft.com/addons/detail/honey/amnbcmdbanbkjhnfoeceemmmdiepnbpp', 'https://chrome.google.com/webstore/detail/honey/bmnlcjabgnpnenekpadlanbbkooimhnj', 'https://chrome.google.com/webstore/detail/honey/bmnlcjabgnpnenekpadlanbbkooimhnj', 'https://addons.mozilla.org/en-US/firefox/addon/honey/?src=search', 'https://apps.apple.com/us/app/honey-for-safari/id1472777122?mt=12', 'unsupported')"><img class="bookmarkimg" src="https://cdn.glitch.com/308b305a-6d44-4e10-b83f-42216d0a3e99%2Fhoney.png?v=1633092974448"></img> <div class="bookmarktext">Honey</a></div></li>
-        <li><a class="link" onload="addExtensionHref(event, 'https://microsoftedge.microsoft.com/addons/detail/sponsorblock-for-youtube-/mbmgnelfcpoecdepckhlhegpcehmpmji', 'https://chrome.google.com/webstore/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone', 'https://chrome.google.com/webstore/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone', 'https://addons.mozilla.org/addon/sponsorblock?src=external-website', 'https://apps.apple.com/us/app/sponsorblock-for-youtube/id1573461917', 'unsupported')"><img class="bookmarkimg" src="https://cdn.glitch.com/308b305a-6d44-4e10-b83f-42216d0a3e99%2Fsponsorblock.png?v=1633092975198"></img> <div class="bookmarktext">SponsorBlock for YouTube</a></div></li>
-        <li><a class="link" onload="addExtensionHref(event, 'https://microsoftedge.microsoft.com/addons/detail/duckduckgo-privacy-essent/caoacbimdbbljakfhgikoodekdnlcgpk', 'https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg', 'https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg', 'https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/', 'https://apps.apple.com/us/app/duckduckgo-privacy-essentials/id1482920575?mt=12', 'ie')"><img class="bookmarkimg" src="https://cdn.glitch.com/308b305a-6d44-4e10-b83f-42216d0a3e99%2Fduckduckgo.png?v=1633092975509"></img> <div class="bookmarktext">DuckDuckGo Privacy Essentials</a></div></li>
-        <li><a class="link" onload="addExtensionHref(event, 'https://chrome.google.com/webstore/detail/social-blade/cfidkbgamfhdgmedldkagjopnbobdmdn', 'https://chrome.google.com/webstore/detail/social-blade/cfidkbgamfhdgmedldkagjopnbobdmdn', 'https://chrome.google.com/webstore/detail/social-blade/cfidkbgamfhdgmedldkagjopnbobdmdn', 'unsupported', 'unsupported', 'unsupported')"><img class="bookmarkimg" src="https://cdn.glitch.com/308b305a-6d44-4e10-b83f-42216d0a3e99%2Fsocialblade.png?v=1633092974448"></img> <div class="bookmarktext">Socialblade</a></div></li>
-        <li><a class="link" onload="addExtensionHref(event, 'https://chrome.google.com/webstore/detail/vidiq-vision-for-youtube/pachckjkecffpdphbpmfolblodfkgbhl', 'https://chrome.google.com/webstore/detail/vidiq-vision-for-youtube/pachckjkecffpdphbpmfolblodfkgbhl', 'https://chrome.google.com/webstore/detail/vidiq-vision-for-youtube/pachckjkecffpdphbpmfolblodfkgbhl', 'https://addons.mozilla.org/en-US/firefox/addon/vidiq-vision-youtube/', 'unsupported', 'unsupported')"><img class="bookmarkimg" src="https://cdn.glitch.com/308b305a-6d44-4e10-b83f-42216d0a3e99%2Fvidiq.png?v=1633094655514"></img> <div class="bookmarktext">vidIQ Vision for YouTube</a></div></li> 
-        <li><a class="link" onload="addExtensionHref(event, 'https://microsoftedge.microsoft.com/addons/detail/tubebuddy/feaiphogcfmhkkbodjnmbjcbaeiikbbm?hl=en-US', 'https://chrome.google.com/webstore/detail/tubebuddy/mhkhmbddkmdggbhaaaodilponhnccicb', 'https://chrome.google.com/webstore/detail/tubebuddy/mhkhmbddkmdggbhaaaodilponhnccicb', 'https://addons.mozilla.org/en-US/firefox/addon/tubebuddy-plugin/', 'unsupported', 'unsupported')"><img class="bookmarkimg" src="https://cdn.glitch.com/308b305a-6d44-4e10-b83f-42216d0a3e99%2Ftubebuddy.png?v=1633092974448"></img> <div class="bookmarktext">TubeBuddy</a></div></li> 
+		addExtensionHref(event, 'edge', 'opera', 'chrome', 'firefox', 'safari', 'ie')
+		<?php
+		function addExtensionHref($ext, $edge, $opera, $chrome, $firefox, $safari, $ie){
+			if(strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== FALSE)
+				if($ie == 'unsupported') {
+					echo 'onclick="alert("' . $ext . ' is not supported by Internet Explorer.';
+				} else {
+					echo 'href="' . $ie . '" target="_blank"';
+				}
+			elseif(strpos($_SERVER['HTTP_USER_AGENT'], 'Trident') !== FALSE)
+				if($ie == 'unsupported') {
+					echo 'onclick="alert("' . $ext . ' is not supported by Internet Explorer.';
+				} else {
+					echo 'href="' . $ie . '" target="_blank"';
+				}
+			elseif(strpos($_SERVER['HTTP_USER_AGENT'], 'Firefox') !== FALSE)
+				if($firefox == 'unsupported') {
+					echo 'onclick="alert("' . $ext . ' is not supported by Internet Explorer.';
+				} else {
+					echo 'href="' . $firefox . '" target="_blank"';
+				}
+			elseif(strpos($_SERVER['HTTP_USER_AGENT'], 'Chrome') !== FALSE)
+				if($chrome == 'unsupported') {
+					echo 'onclick="alert("' . $ext . ' is not supported by Internet Explorer.';
+				} else {
+					echo 'href="' . $chrome . '" target="_blank"';
+				}
+			elseif(strpos($_SERVER['HTTP_USER_AGENT'], 'Opera Mini') !== FALSE)
+				if($opera == 'unsupported') {
+					echo 'onclick="alert("' . $ext . ' is not supported by Internet Explorer.';
+				} else {
+					echo 'href="' . $opera . '" target="_blank"';
+				}
+			elseif(strpos($_SERVER['HTTP_USER_AGENT'], 'Opera') !== FALSE)
+				if($opera == 'unsupported') {
+					echo 'onclick="alert("' . $ext . ' is not supported by Internet Explorer.';
+				} else {
+					echo 'href="' . $opera . '" target="_blank"';
+				}
+			elseif(strpos($_SERVER['HTTP_USER_AGENT'], 'Safari') !== FALSE)
+				if($safari == 'unsupported') {
+					echo 'onclick="alert("' . $ext . ' is not supported by Internet Explorer.';
+				} else {
+					echo 'href="' . $safari . '" target="_blank"';
+				}
+			else
+				if($chrome == 'unsupported') {
+					echo "Your browser is unknown. We tried to give you the Google Chrome link but that browser doesn't seem to support this extension.";
+				} else {
+					echo 'href="' . $chrome . '" target="_blank"';
+				}
+		}
+		?>
+        <li><a class="link" <?php addExtensionHref('uBlock Origin', 'https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak', 'https://addons.opera.com/en/extensions/details/ublock/', 'https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm', 'https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/', 'https://safari-extensions.apple.com/details/?id=com.el1t.uBlock-3NU33NW2M3', 'unsupported')?>><img class="bookmarkimg" src="https://cdn.glitch.com/308b305a-6d44-4e10-b83f-42216d0a3e99%2Fublockorigin.png?v=1633092974448"></img> <div class="bookmarktext">uBlock Origin</a></div></li>
+        <li><a class="link" <?php addExtensionHref('Privacy Badger', 'https://microsoftedge.microsoft.com/addons/detail/mkejgcgkdlddbggjhhflekkondicpnop', 'https://addons.opera.com/en/extensions/details/privacy-badger', 'https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp', 'https://addons.mozilla.org/firefox/downloads/latest/privacy-badger17/', 'unsupported', 'unsupported')?>><img class="bookmarkimg" src="https://cdn.glitch.com/308b305a-6d44-4e10-b83f-42216d0a3e99%2Fprivacybadger.png?v=1633092975048"?>></img> <div class="bookmarktext">Privacy Badger</a></div></li>
+        <li><a class="link" <?php addExtensionHref('Honey', 'https://microsoftedge.microsoft.com/addons/detail/honey/amnbcmdbanbkjhnfoeceemmmdiepnbpp', 'https://chrome.google.com/webstore/detail/honey/bmnlcjabgnpnenekpadlanbbkooimhnj', 'https://chrome.google.com/webstore/detail/honey/bmnlcjabgnpnenekpadlanbbkooimhnj', 'https://addons.mozilla.org/en-US/firefox/addon/honey/?src=search', 'https://apps.apple.com/us/app/honey-for-safari/id1472777122?mt=12', 'unsupported')?>><img class="bookmarkimg" src="https://cdn.glitch.com/308b305a-6d44-4e10-b83f-42216d0a3e99%2Fhoney.png?v=1633092974448"></img> <div class="bookmarktext">Honey</a></div></li>
+        <li><a class="link" <?php addExtensionHref('SponsorBlock for YouTube', 'https://microsoftedge.microsoft.com/addons/detail/sponsorblock-for-youtube-/mbmgnelfcpoecdepckhlhegpcehmpmji', 'https://chrome.google.com/webstore/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone', 'https://chrome.google.com/webstore/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone', 'https://addons.mozilla.org/addon/sponsorblock?src=external-website', 'https://apps.apple.com/us/app/sponsorblock-for-youtube/id1573461917', 'unsupported')?>><img class="bookmarkimg" src="https://cdn.glitch.com/308b305a-6d44-4e10-b83f-42216d0a3e99%2Fsponsorblock.png?v=1633092975198"></img> <div class="bookmarktext">SponsorBlock for YouTube</a></div></li>
+        <li><a class="link" <?php addExtensionHref('DuckDuckGo Privacy Essentials', 'https://microsoftedge.microsoft.com/addons/detail/duckduckgo-privacy-essent/caoacbimdbbljakfhgikoodekdnlcgpk', 'https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg', 'https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg', 'https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/', 'https://apps.apple.com/us/app/duckduckgo-privacy-essentials/id1482920575?mt=12', 'unsupported')?>><img class="bookmarkimg" src="https://cdn.glitch.com/308b305a-6d44-4e10-b83f-42216d0a3e99%2Fduckduckgo.png?v=1633092975509"></img> <div class="bookmarktext">DuckDuckGo Privacy Essentials</a></div></li>
+        <li><a class="link" <?php addExtensionHref('Socialblade', 'https://chrome.google.com/webstore/detail/social-blade/cfidkbgamfhdgmedldkagjopnbobdmdn', 'https://chrome.google.com/webstore/detail/social-blade/cfidkbgamfhdgmedldkagjopnbobdmdn', 'https://chrome.google.com/webstore/detail/social-blade/cfidkbgamfhdgmedldkagjopnbobdmdn', 'unsupported', 'unsupported', 'unsupported')?>><img class="bookmarkimg" src="https://cdn.glitch.com/308b305a-6d44-4e10-b83f-42216d0a3e99%2Fsocialblade.png?v=1633092974448"></img> <div class="bookmarktext">Socialblade</a></div></li>
+        <li><a class="link" <?php addExtensionHref('vidIQ Vision for YouTube', 'https://chrome.google.com/webstore/detail/vidiq-vision-for-youtube/pachckjkecffpdphbpmfolblodfkgbhl', 'https://chrome.google.com/webstore/detail/vidiq-vision-for-youtube/pachckjkecffpdphbpmfolblodfkgbhl', 'https://chrome.google.com/webstore/detail/vidiq-vision-for-youtube/pachckjkecffpdphbpmfolblodfkgbhl', 'https://addons.mozilla.org/en-US/firefox/addon/vidiq-vision-youtube/', 'unsupported', 'unsupported')?>><img class="bookmarkimg" src="https://cdn.glitch.com/308b305a-6d44-4e10-b83f-42216d0a3e99%2Fvidiq.png?v=1633094655514"></img> <div class="bookmarktext">vidIQ Vision for YouTube</a></div></li> 
+        <li><a class="link" <?php addExtensionHref('TubeBuddy', 'https://microsoftedge.microsoft.com/addons/detail/tubebuddy/feaiphogcfmhkkbodjnmbjcbaeiikbbm?hl=en-US', 'https://chrome.google.com/webstore/detail/tubebuddy/mhkhmbddkmdggbhaaaodilponhnccicb', 'https://chrome.google.com/webstore/detail/tubebuddy/mhkhmbddkmdggbhaaaodilponhnccicb', 'https://addons.mozilla.org/en-US/firefox/addon/tubebuddy-plugin/', 'unsupported', 'unsupported')?>><img class="bookmarkimg" src="https://cdn.glitch.com/308b305a-6d44-4e10-b83f-42216d0a3e99%2Ftubebuddy.png?v=1633092974448"></img> <div class="bookmarktext">TubeBuddy</a></div></li> 
         </ul>
         <h1 id="-music-players-">Music Players</h1>
         <ul>
